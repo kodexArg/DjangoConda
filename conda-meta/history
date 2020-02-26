@@ -33,3 +33,18 @@
 -defaults::libpq-11.2-h20c2e04_0
 -defaults::psycopg2-2.8.4-py37h1ba5d50_0
 # remove specs: ['psycopg2']
+==> 2020-02-14 13:39:53 <==
+# cmd: /usr/bin/conda install --prefix /opt/DjangoMCE/cda pylint -y
+# conda version: 4.8.0
+-defaults::ca-certificates-2019.11.27-0
+-defaults::openssl-1.1.1d-h7b6447c_3
++defaults::astroid-2.3.3-py37_0
++defaults::ca-certificates-2020.1.1-0
++defaults::isort-4.3.21-py37_0
++defaults::lazy-object-proxy-1.4.3-py37h7b6447c_0
++defaults::mccabe-0.6.1-py37_1
++defaults::openssl-1.1.1d-h7b6447c_4
++defaults::pylint-2.4.4-py37_0
++defaults::six-1.14.0-py37_0
++defaults::wrapt-1.11.2-py37h7b6447c_0
+# update specs: ['pylint']
